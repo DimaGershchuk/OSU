@@ -8,23 +8,23 @@
     "net5.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\38068\\.nuget\\packages\\": {},
+    "C:\\Users\\Sergii\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\38068\\Desktop\\ОКР\\OSU\\OSU\\OSU.csproj",
+      "projectUniqueName": "C:\\Users\\Sergii\\Desktop\\ОКР\\OSU\\OSU\\OSU.csproj",
       "projectName": "OSU",
-      "projectPath": "C:\\Users\\38068\\Desktop\\ОКР\\OSU\\OSU\\OSU.csproj",
-      "packagesPath": "C:\\Users\\38068\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\38068\\Desktop\\ОКР\\OSU\\OSU\\obj\\",
+      "projectPath": "C:\\Users\\Sergii\\Desktop\\ОКР\\OSU\\OSU\\OSU.csproj",
+      "packagesPath": "C:\\Users\\Sergii\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sergii\\Desktop\\ОКР\\OSU\\OSU\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\38068\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Sergii\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -68,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
