@@ -30,7 +30,7 @@ namespace OSU
         {
             Graphics g = e.Graphics;
             var localPosition = this.PointToClient(Cursor.Position);
-            g.DrawImage(Handlertexure, new Rectangle(localPosition.X, localPosition.Y, 100, 100));
+            g.DrawImage(Handlertexure, new Rectangle(localPosition.X - 50, localPosition.Y - 50, 100, 100));
             g.DrawImage(TargetTexture, new Rectangle(0, 0, 100, 100));
 
         }
