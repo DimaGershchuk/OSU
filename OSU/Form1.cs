@@ -16,6 +16,7 @@ namespace OSU
 
         private Point _targetPosition = new Point(300,300);
         private Point _direction = Point.Empty;
+        private int _score = 0;
         public Form1()
         {
             InitializeComponent();
@@ -54,12 +55,24 @@ namespace OSU
                 _direction.Y *= -1;
             }
 
+            Point between = new Point(localPosition.X - _targetPosition.X, localPosition.Y - _targetPosition.Y);
+            float distance = (float)Math.Sqrt((between.X * between.X) + (between.Y * between.Y));
+            if(distance < 10)
+            {
+                AddScore(1);
+            }
             var handlerRect = new Rectangle(localPosition.X - 50, localPosition.Y - 50, 100, 100);
             var targetRect = new Rectangle(_targetPosition.X - 50, _targetPosition.Y - 50, 100,100);
             g.DrawImage(Handlertexure, handlerRect);
             g.DrawImage(TargetTexture, targetRect);
             
 
+        }
+
+        private void AddScore(int score)
+        {
+            _score += score;
+            scorelabel.Text = score.ToString();
         }
     }
 }
